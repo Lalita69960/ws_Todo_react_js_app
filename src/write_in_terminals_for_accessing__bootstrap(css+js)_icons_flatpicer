@@ -1,0 +1,25 @@
+  /* PS C:\Users\heera\OneDrive\Documents\Desktop\Lexicon web development\Lexicon -java-development\Todo_react_js_app> npm run dev   */
+
+
+npm run dev  
+
+npm bootstrap@5 @popperjs/core      
+
+npm install bootstrap@5 @popperjs/core
+
+npm install flatpickr bootstrap-icons
+
+npm install bootstrap-icons
+
+
+
+
+
+// import all in main.jsx
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'flatpickr/dist/flatpickr.min.css'
+
+import 'bootstrap-icons/font/bootstrap-icons.css';
+

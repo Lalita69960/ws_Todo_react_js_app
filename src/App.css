@@ -1,0 +1,66 @@
+/* Basic layout styling to match the wireframe look */
+:root {
+  --sidebar-width: 220px;
+}
+
+html,body,#root {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f8f9fa;
+}
+
+.app-root {
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: var(--sidebar-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-right: 1px solid #ececec;
+}
+
+.logo-square {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.app-name { font-weight: 600; color: #333; }
+
+/* topbar */
+.topbar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+/* main area */
+.main-area {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* clickable helper */
+.clickable { cursor: pointer; }
+
+/* attachment thumb */
+.attachment-thumb { max-width: 100%; height: auto; border-radius: 6px; margin-top: 8px; }
+
+/* make the container narrower on very wide screens */
+@media(min-width:1200px){
+  main.p-4 { max-width: 900px; margin: 0 auto; }
+}
