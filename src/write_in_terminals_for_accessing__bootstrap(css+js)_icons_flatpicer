@@ -11,6 +11,8 @@ npm install flatpickr bootstrap-icons
 
 npm install bootstrap-icons
 
+npm install react-hook-form
+
 
 
 
@@ -22,4 +24,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'flatpickr/dist/flatpickr.min.css'
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
+import React, { useEffect, useRef, useState } from 'react'
+
+import { useForm, Controller } from 'react-hook-form'
+
 
